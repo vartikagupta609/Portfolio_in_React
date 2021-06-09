@@ -99,7 +99,9 @@
   margin-bottom: 10px; */
 }
 
-.login-input:hover {
+.login-input:hover,
+.login-input1:hover,
+select:hover {
   border: 2px solid blue;
 }
 
@@ -132,7 +134,7 @@ select {
   transition: border 0.4s ease-out;
   padding: 7px;
   font-family: Oxygen, sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   width: 90%;
   color: #3e3e42;
   background: rgba(15, 15, 15, 0.01);
